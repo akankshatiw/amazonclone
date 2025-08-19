@@ -1,0 +1,342 @@
+* {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      border: border-box;
+
+}
+
+/* nav bar starts here*/
+.navbar {
+      height: 60px;
+      background-color: #011327;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+
+.nav-logo {
+      height: 55px;
+      width: 127px;
+}
+
+.logo {
+      background-image: url(Screenshot\ 2025-08-13\ 103305.png);
+      height: 55px;
+      width: 100%;
+}
+
+.border {
+      border: 2px solid transparent;
+}
+
+.border:hover {
+      border: 2px solid white;
+}
+
+.add-first {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      height: 16px;
+      color: #cccccc;
+      margin-left: 15px;
+}
+
+.add-second {
+      font-size: 1rem;
+      color: white;
+      margin-left: 3px;
+}
+
+i {
+      color: white;
+}
+
+.address-icon {
+      display: flex;
+}
+
+.nav-search {
+      display: flex;
+      justify-content: space-evenly;
+      background-color: pink;
+      width: 620px;
+      height: 40px;
+      border-radius: 5px;
+}
+
+.search-select {
+      background-color: #f3f3f3;
+      width: 50px;
+      text-align: center;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border: none;
+      color: black;
+      font-weight: 700;
+}
+
+.search-input {
+      width: 100%;
+      font-size: 1rem;
+      border: none;
+}
+
+.search-icon {
+      width: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      background-color: #febd68;
+
+}
+
+.search-icon.border:hover {
+
+      background-color: #f18832;
+}
+
+.nav-search.border :hover {
+      border-color: 2px solid orangered;
+}
+
+.lang-select {
+      display: flex;
+      align-items: center;
+      padding: 4px 6px;
+      background-color: #131921;
+      /* Amazon header dark color */
+      color: white;
+      cursor: pointer;
+}
+
+.flag-icon {
+      width: 20px;
+      height: auto;
+      margin-right: 2px;
+}
+
+.lang-code {
+      font-size: 14px;
+      font-weight: bold;
+      margin-right: 2px;
+}
+
+.arrow {
+      font-size: 10px;
+      width: 45px;
+      height: 16px;
+}
+
+.signin {
+      color: white;
+}
+
+span {
+      font-size: 0.7rem;
+
+}
+
+.nav-second {
+      font-size: 0.85rem;
+      font-weight: 700;
+}
+
+.nav-cart {
+      align-items: center;
+      font-size: 1.7rem;
+      display: flex;
+      color: white;
+      justify-content: center;
+}
+
+.cart {
+      font-size: 1rem;
+}
+
+/* sub nav/ nav pannel starts here*/
+.nav-pannel {
+      background-color: #222f3d;
+      height: 40px;
+      display: flex;
+      color: white;
+      align-items: center;
+      justify-content: space-evenly;
+
+
+
+
+}
+
+.pannel-ops p {
+      display: inline;
+      margin-left: 15px;
+
+}
+
+.pannel-ops {
+      width: 70%;
+      font-size: 1rem;
+
+}
+
+.pannel-deals {
+      font-size: 1.2rem;
+      font-weight: 700;
+}
+
+/* home page starts here*/
+.hero-section {
+      background-image: url("934044814._CB551384116_.jpg");
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+}
+
+.hero-msg {
+      background-color: white;
+      color: black;
+      height: 40px;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 95%;
+      margin-bottom: 90px;
+}
+
+.hero-msg a {
+      color: #007185;
+}
+
+/*shop shection starts here*/
+.shop-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      background-color: #9A7D63;
+}
+
+.box {
+
+      height: 500px;
+      width: 23%;
+      background-color: white;
+      padding: 20px 0px 15px;
+      margin-top: 10px;
+}
+
+.box1-img {
+      background-image: url("box1.jpeg");
+      height: 400px;
+      background-size: cover;
+      background-image: cover;
+      margin-top: 0.2rem;
+      margin-bottom: 1rem;
+      object-fit: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+
+}
+
+.box-content {
+      margin-left: 1rem;
+      margin-right: 1rem;
+}
+
+.box-content p {
+      color: #007185;
+}
+
+.box2-img {
+      background-image: url("Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg");
+      height: 400px;
+      background-size:contain;
+      background-image: cover;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      object-fit: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+
+}
+
+.box3-img {
+      background-image: url("PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg");
+      height: 400px;
+      background-size: contain;
+      background-image: cover;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      object-fit: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.box4-img {
+      background-image: url("Wallpapers_low_res_V1._SY116_CB549138744_.jpg");
+      height: 400px;
+      background-size: cover;
+      background-image: cover;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      object-fit: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.box5-img {
+      background-image: url("Wipes_low_res_V1._SY116_CB549138744_.jpg");
+      height: 400px;
+      background-size:contain;
+      background-image: cover;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      object-fit: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.box6-img {
+      background-image: url("PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg");
+      height: 400px;
+      background-size: cover;
+      background-image: cover;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      object-fit: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.box7-img {
+      background-image: url("Tools_low_res_V1._SY116_CB549138744_.jpg");
+      height: 400px;
+      background-size: contain;
+      background-image: cover;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      object-fit: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.box8-img {
+      background-image: url("PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg");
+      height: 400px;
+      width: 100%;
+      background-size: contain;
+      background-image: cover;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      object-fit: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+h2{
+      font-size: 20px;
+      align-items: center;
+}
